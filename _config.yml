@@ -109,9 +109,9 @@ analytics:
 author:
   name             : "Wesley Kam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Technical Designer."
+  bio              : "Technical Designer"
   location         : "Singapore"
-  email            : "gamez.at.work@gmail.com
+  email            : "gamez.at.work@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
