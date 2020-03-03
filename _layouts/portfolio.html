@@ -1,4 +1,7 @@
 ---
+layout: single
+classes: wide
+
 engine:                 #What was the primary engine used for this project?
 platforms: []           #What platforms was this project for?        
 end_date:               #When did this project end? The start date is this post's date
@@ -10,14 +13,15 @@ project_summary:        #What is the project about?
 project_description:    #What is the background of this project?
 job_details: []         #List of all the exact stuff you did for this project
 
-layout: single
-classes: wide
-
 gallery:
   - url:                #URL of the large image
     image_path:         #URL of the image to show in the gallery
     alt:                #Alternate text for the image
     title:              #Title text for the image
+
+sidebar:  
+  - title: "Date"
+    text: "{{ page.end_date }}"
 
 ---
 This is a portfolio entry
