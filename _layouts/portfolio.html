@@ -19,11 +19,11 @@ gallery:
     alt:                #Alternate text for the image
     title:              #Title text for the image
 
-sidebar:
-  - title: "Engine"
-    text: "{{ engine }}"
-
 ---
+
+{{page.sidebar | replace: '!PROJECT_ENGINE!', page.engine }}
+{{page.sidebar | replace: '!PROJECT_TEAMSIZE!', page.team_size }}
+
 This is a portfolio entry
 
 {{ content }}
