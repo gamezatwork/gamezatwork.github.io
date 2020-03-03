@@ -4,8 +4,10 @@ layout: single
 permalink: /about_me/
 author_profile: true
 ---
+<div class="notice">
 <h2>Biography</h2>
 Hey guys this is my biography!
+</div>
 
 <h2>Contact Details</h2>
 <h3>Email</h3>
