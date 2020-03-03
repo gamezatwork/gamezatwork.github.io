@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "About Me"
-    url: https://gamezatwork.github.io
+    url: /about_me/
   - title: "Works"
     url: /portfolio/
   - title: "Blog"
