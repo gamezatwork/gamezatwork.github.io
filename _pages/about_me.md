@@ -2,6 +2,7 @@
 title: About me
 layout: single
 permalink: /about_me/
+author_profile: true
 ---
 <h2>Biography</h2>
 Hey guys this is my biography!
