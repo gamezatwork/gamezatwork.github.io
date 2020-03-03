@@ -289,7 +289,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: # true
       share: true
       related: true
@@ -304,3 +304,9 @@ defaults:
       comments: # true
       share: # true
       related: true
+
+# Collections
+collections:
+  #Portfolio works
+  - portfolio_works:
+    output: true
