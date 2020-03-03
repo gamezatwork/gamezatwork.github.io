@@ -312,5 +312,7 @@ defaults:
       related: true
       sidebar:  
         - title: "Engine"
-          text: "{{ engine }}"
+          text: "{{ page.engine }}"
+        - title: "Platform"
+          text: "{{ page.platforms }}"
 
