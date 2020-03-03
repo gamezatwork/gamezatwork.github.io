@@ -293,3 +293,14 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _portfolioEntry
+  - scope:
+      path: ""
+      type: portfolioEntry
+    values:
+      layout: single
+      author_profile: true
+      read_time: # true
+      comments: # true
+      share: # true
+      related: true
