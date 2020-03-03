@@ -312,9 +312,9 @@ defaults:
       related: true
       sidebar:  
         - title: "Date"
-          text: "!PROJECT_DATE!"
+          text: "{{ page.date }}"
         - title: "Engine"
-          text: "!PROJECT_ENGINE!"
+          text: "{{ page.engine }}"
         - title: "Platforms"
           text: "!PROJECT_PLATFORMS!"
         - title: "Language"
