@@ -304,7 +304,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: posts
       author_profile: true
       read_time: false
       comments: false
