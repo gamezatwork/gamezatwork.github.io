@@ -39,9 +39,9 @@ sidebar:
 <div id="main" role="main">
   <div class="sidebar sticky">
     <h3>Date</h3> 
-    <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</time>
     -
-    <time datetime="{{ page.end_date | date: "%Y-%m-%d" }}">{{ page.end_date | date: "%B %-d, %Y" }}</time>
+    <time datetime="{{ page.end_date | date: "%Y-%m-%d" }}">{{ page.end_date | date: "%B %Y" }}</time>
     </p>
     <h3>Engine</h3> 
     <p>{{ page.engine }}</p>
