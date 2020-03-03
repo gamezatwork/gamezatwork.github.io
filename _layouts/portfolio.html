@@ -5,6 +5,11 @@ This is a portfolio entry
 
 {{ content }}
 
+{% for tag in site.tags %}
+  <h3>Tag: {{ tag[0] }}</h3>
+{% endfor %}
+
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
