@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: default
 classes: wide
 
 engine:                 #What was the primary engine used for this project?
@@ -24,69 +24,88 @@ sidebar:
     text: "{{ page.end_date }}"
 
 ---
-<div class="sidebar sticky">
-  <h3>Date</h3> 
-  <p>{{ page.date }} - {{ page.end_date }}</p>
-  <h3>Engine</h3> 
-  <p>{{ page.engine }}</p>
-  <h3>Platform</h3> 
-  <ul>
-  {% for platform in page.platforms %}
-    <li>{{platform}}</li>
-  {% endfor %}
-  </ul>
-  <h3>Language</h3> 
-  <ul>
-  {% for language in page.language %}
-    <li>{{language}}</li>
-  {% endfor %}
-  </ul>
-  <h3>Tools I worked with</h3> 
-  <ul>
-  {% for tool in page.tools %}
-    <li>{{tool}}</li>
-  {% endfor %}
-  </ul>
-  <h3>Team Size</h3> 
-  <p>{page.team_size}</p>
-  <h3>Roles</h3> 
-  <ul>
-  {% for role in page.roles %}
-    <li>{{role}}</li>
-  {% endfor %}
-  </ul>
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+  {% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  <div class="sidebar sticky">
+    <h3>Date</h3> 
+    <p>{{ page.date }} - {{ page.end_date }}</p>
+    <h3>Engine</h3> 
+    <p>{{ page.engine }}</p>
+    <h3>Platform</h3> 
+    <ul>
+    {% for platform in page.platforms %}
+      <li>{{platform}}</li>
+    {% endfor %}
+    </ul>
+    <h3>Language</h3> 
+    <ul>
+    {% for language in page.language %}
+      <li>{{language}}</li>
+    {% endfor %}
+    </ul>
+    <h3>Tools I worked with</h3> 
+    <ul>
+    {% for tool in page.tools %}
+      <li>{{tool}}</li>
+    {% endfor %}
+    </ul>
+    <h3>Team Size</h3> 
+    <p>{page.team_size}</p>
+    <h3>Roles</h3> 
+    <ul>
+    {% for role in page.roles %}
+      <li>{{role}}</li>
+    {% endfor %}
+    </ul>
+  </div>
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    This is a portfolio entry
+
+    {{ content }}
+
+    <p>This is the end of the entry</p>
+
+    <p>Engine: {{ page.engine }} </p>
+
+    Language: {{ page.language }} <br/>
+
+    Roles:
+    {% for role in page.roles %}
+    {{role}}
+    {% endfor %}  
+
+    {% include gallery id="gallery" caption="Screenshots from the project" %}
+
+    <h2> Project Summary </h2>
+    <p>{{ page.project_summary }}</p>
+
+    <h2> Project Description </h2>
+    <p>{{ page.project_description }}</p>
+
+    <h2> Job Details </h2>
+    <ul>
+    {% for job in page.job_details %}
+      <li> {{ job }} </li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>
 
-This is a portfolio entry
 
-{{ content }}
 
-<p>This is the end of the entry</p>
 
-<p>Engine: {{ page.engine }} </p>
-
-Language: {{ page.language }} <br/>
-
-Roles:
-{% for role in page.roles %}
-{{role}}
-{% endfor %}  
-
-{% include gallery id="gallery" caption="Screenshots from the project" %}
-
-<h2> Project Summary </h2>
-<p>{{ page.project_summary }}</p>
-
-<h2> Project Description </h2>
-<p>{{ page.project_description }}</p>
-
-<h2> Job Details </h2>
-<ul>
-{% for job in page.job_details %}
-  <li> {{ job }} </li>
-{% endfor %}
-</ul>
-
-{% for tag in site.tags %}
-  <h3>Tag: {{ tag[0] }}</h3>
-{% endfor %}
