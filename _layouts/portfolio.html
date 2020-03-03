@@ -25,6 +25,19 @@ Roles:
 {{role}}
 {% endfor %}  
 
+<h2> Project Summary </h2>
+<p>{{ page.project_summary }}</p>
+
+<h2> Project Description </h2>
+<p>{{ page.project_description }}</p>
+
+<h2> Job Details </h2>
+<ul>
+{% for job in page.job_details %}
+  <li> {{ job }} </li>
+{% endfor %}
+</ul>
+
 {% for tag in site.tags %}
   <h3>Tag: {{ tag[0] }}</h3>
 {% endfor %}
