@@ -1,6 +1,7 @@
 ---
-title: Portfolio Work
-layout: posts
+title: Works
+layout: collection
 permalink: /portfolio/
 collection: portfolio
+entries_layout: grid
 ---
