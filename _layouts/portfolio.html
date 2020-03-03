@@ -39,16 +39,19 @@ sidebar:
 <div id="main" role="main">
   <div class="sidebar sticky">
     <h3>Date</h3> 
-    <p>{{ page.date }} - {{ page.end_date }}</p>
+    <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    -
+    <time datetime="{{ page.end_date | date: "%Y-%m-%d" }}">{{ page.end_date | date: "%B %-d, %Y" }}</time>
+    </p>
     <h3>Engine</h3> 
     <p>{{ page.engine }}</p>
-    <h3>Platform</h3> 
+    <h3>Platforms</h3> 
     <ul>
     {% for platform in page.platforms %}
       <li>{{platform}}</li>
     {% endfor %}
     </ul>
-    <h3>Language</h3> 
+    <h3>Languages</h3> 
     <ul>
     {% for language in page.language %}
       <li>{{language}}</li>
@@ -61,7 +64,7 @@ sidebar:
     {% endfor %}
     </ul>
     <h3>Team Size</h3> 
-    <p>{page.team_size}</p>
+    <p>{{page.team_size}}</p>
     <h3>Roles</h3> 
     <ul>
     {% for role in page.roles %}
@@ -74,23 +77,8 @@ sidebar:
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    This is a portfolio entry
-
-    {{ content }}
-
-    <p>This is the end of the entry</p>
-
-    <p>Engine: {{ page.engine }} </p>
-
-    Language: {{ page.language }} <br/>
-
-    Roles:
-    {% for role in page.roles %}
-    {{role}}
-    {% endfor %}  
-
     {% include gallery id="gallery" caption="Screenshots from the project" %}
-
+    {{ content }}
     <h2> Project Summary </h2>
     <p>{{ page.project_summary }}</p>
 
