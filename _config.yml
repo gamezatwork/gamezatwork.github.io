@@ -310,4 +310,7 @@ defaults:
       comments: false
       share: true
       related: true
+      sidebar:  
+        - title: "Engine"
+          text: "{{ engine }}"
 
