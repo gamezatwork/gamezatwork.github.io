@@ -305,14 +305,23 @@ defaults:
       type: portfolio
     values:
       layout: portfolio
-      author_profile: true
+      author_profile: false
       read_time: false
       comments: false
       share: true
       related: true
       sidebar:  
+        - title: "Date"
+          text: "!PROJECT_DATE!"
         - title: "Engine"
-          text: "{{ page.engine }}"
-        - title: "Platform"
-          text: "{{ page.platforms }}"
-
+          text: "!PROJECT_ENGINE!"
+        - title: "Platforms"
+          text: "!PROJECT_PLATFORMS!"
+        - title: "Language"
+          text: "!PROJECT_LANGUAGE!"
+        - title: "Tools I worked with"
+          text: "!PROJECT_TOOLS!"
+        - title: "Team Size"
+          text: "!PROJECT_TEAMSIZE!"
+        - title: "Roles"
+          text: "!PROJECT_ROLES!"
