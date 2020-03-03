@@ -3,7 +3,7 @@ main:
   - title: "About Me"
     url: https://gamezatwork.github.io
   - title: "Works"
-    url: https://gamezatwork.github.io
+    url: /portfolio/
   - title: "Blog"
     url: https://gamezatwork.github.io
   # - title: "About"
