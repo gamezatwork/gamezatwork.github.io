@@ -11,14 +11,14 @@ This is a portfolio entry
 
 {{ content }}
 
-Engine: {{ page.engine }}\
+Engine: {{ page.engine }}  
 
-Language: {{ page.language }}\
+Language: {{ page.language }}  
 
 Roles:
 {% for role in page.roles %}
 {{role}}
-{% endfor %}
+{% endfor %}  
 
 {% for tag in site.tags %}
   <h3>Tag: {{ tag[0] }}</h3>
