@@ -11,6 +11,13 @@ roles: []               #What roles did you take in this project?
 project_summary:        #What is the project about?
 project_description:    #What is the background of this project?
 job_details: []         #List of all the exact stuff you did for this project
+
+gallery:
+  - url:                #URL of the large image
+    image_path:         #URL of the image to show in the gallery
+    alt:                #Alternate text for the image
+    title:              #Title text for the image
+
 ---
 This is a portfolio entry
 
@@ -26,6 +33,8 @@ Roles:
 {% for role in page.roles %}
 {{role}}
 {% endfor %}  
+
+{% include gallery id="gallery" caption="Screenshots from the project" %}
 
 <h2> Project Summary </h2>
 <p>{{ page.project_summary }}</p>
