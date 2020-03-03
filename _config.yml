@@ -305,7 +305,7 @@ defaults:
       type: portfolio
     values:
       layout: portfolio
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: false
       share: true
