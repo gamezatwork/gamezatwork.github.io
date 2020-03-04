@@ -14,7 +14,3 @@ gamez.at.work@gmail.com
 +65 96204812
 ### LinkedIn
 <https://sg.linkedin.com/in/wesley-kam-637257a1>
-
-{% for entry in site.portfolio %}
-  <h2>{{ entry.title }} - {{ entry.engine }}</h2>
-{% endfor %}
