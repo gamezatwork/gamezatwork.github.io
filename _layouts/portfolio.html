@@ -2,17 +2,22 @@
 layout: default
 classes: wide
 
-engine:                 #What was the primary engine used for this project?
-platforms: []           #What platforms was this project for?        
-end_date:               #When did this project end? The start date is this post's date
-language: []            #What are the languages used for this project?
-tools: []               #What tools were used for this project?
-team_size: 1            #How many team members were in this project?
-roles: []               #What roles did you take in this project?
-project_summary:        #What is the project about?
-project_description:    #What is the background of this project?
-job_details: []         #List of all the exact stuff you did for this project
-splash_image:           #The main image shown at the top of the page
+engine:                             #What was the primary engine used for this project?
+platforms: []                       #What platforms was this project for?        
+end_date:                           #When did this project end? The start date is this post's date
+language: []                        #What are the languages used for this project?
+tools: []                           #What tools were used for this project?
+team_size: 1                        #How many team members were in this project?
+roles: []                           #What roles did you take in this project?
+project_short_summary:              #Short summary about the project
+project_summary:                    #What is the project about?
+project_description:                #What is the background of this project?
+job_details: []                     #List of all the exact stuff you did for this project
+splash_image:                       #The main image shown at the top of the page
+youtube_video_code:                 #The youtube project video code, if any (so the part after the youtube.com)
+project_link_header: Project Link   #The header for the project link.
+project_link_button_text: Click to go to the download page!
+project_link:                       #The project link, if any
 
 gallery:
   - url:                #URL to go to when you click on the image
@@ -89,6 +94,16 @@ gallery:
       <li> {{ job }} </li>
     {% endfor %}
     </ul>
+
+    {% if page.youtube_video_code %}
+      <h2> Video </h2>
+      {% include video id= {{ page.youtube_video_code }} provider="youtube" %}
+    {% endif %}
+
+    {% if page.project_link %}
+      <h2> {{ page.project_link_header }} </h2>
+      <a href="#{{page.project_link}}" class="btn btn--primary">{{ page.project_link_button_text }}</a>
+    {% endif %}
   </div>
 </div>
 
