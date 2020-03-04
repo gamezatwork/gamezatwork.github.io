@@ -274,6 +274,7 @@ tag_archive:
 
 head_scripts:
   - /assets/js/bootstrap/bootstrap.bundle.min.js
+  - /assets/js/bootstrap/jquery.min.js
 
 # HTML Compression
 # - https://jch.penibelst.de/
