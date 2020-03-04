@@ -95,6 +95,11 @@ gallery:
     {% endfor %}
     </ul>
 
+    {% if page.youtube_video_code %}
+      <h2> Video </h2>
+      {% include video id= "XsxDH4HcOWA" provider="youtube" %}
+    {% endif %}
+
     {% if page.project_link %}
       {% assign header_text = page.project_link_header | default: layout.project_link_header %}
       {% assign button_text = page.project_link_button_text | default: layout.project_link_button_text %}
