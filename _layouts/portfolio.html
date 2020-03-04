@@ -82,7 +82,6 @@ sidebar:
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {% include gallery id="gallery" caption="Screenshots from the project" %}
     {% include carousel.html name="Images" images=site.images %}
     {{ content }}
     <h2> Project Summary </h2>
