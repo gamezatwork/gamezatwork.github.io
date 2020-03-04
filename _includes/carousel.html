@@ -12,7 +12,7 @@
     <div class="carousel-inner" role="listbox">
         {% for picture in include.images %}
             {% if forloop.first == true %}
-                <div class="item active"">
+                <div class="item active">
                     {% if picture.title %}
                         <img src="{{ picture.url }}" alt="{{ picture.title }}">
                     {% else %}
@@ -25,7 +25,7 @@
                     {% endif %}
                 </div>
             {% else %}
-                <div class="item active"">
+                <div class="item active">
                     {% if picture.title %}
                         <img src="{{ picture.url }}" alt="{{ picture.title }}">
                     {% else %}
@@ -41,12 +41,12 @@
         {% endfor %}
     </div>
 
-    <a class=”left carousel-control” href=”#{{ include.name }}” role=”button” data-slide=”prev”>
-        <span class=”glyphicon glyphicon-chevron-left” aria-hidden=”true”></span>
-        <span class=”sr-only”>Previous</span>
+    <a class="left carousel-control" href="#{{ include.name }}" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
     </a>
-    <a class=”right carousel-control” href=”#{{ include.name }}” role=”button” data-slide=”next”>
-        <span class=”glyphicon glyphicon-chevron-right” aria-hidden=”true”></span>
-        <span class=”sr-only”>Next</span>
+    <a class="right carousel-control" href="#{{ include.name }}" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
     </a>
 </div>
