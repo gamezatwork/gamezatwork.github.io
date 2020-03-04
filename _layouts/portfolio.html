@@ -75,7 +75,7 @@ gallery:
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
     <img src={{ page.splash_image }} alt={{ page.title}} >
-    {% include gallery %}
+    {% include gallery id="gallery" caption="Screenshots from the project" %}
     {{ content }}
     <h2> Project Summary </h2>
     <p>{{ page.project_summary }}</p>
