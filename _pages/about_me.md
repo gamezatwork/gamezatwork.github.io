@@ -4,13 +4,13 @@ layout: single
 permalink: /about_me/
 author_profile: true
 ---
-<h2>Biography</h2>
+## Biography
 Hey guys this is my biography!
 
-<h2>Contact Details</h2>
-<h3>Email</h3>
+## Contact Details
+### Email
 gamez.at.work@gmail.com
-<h3>Phone</h3>
+### Phone
 +65 96204812
-<h3>LinkedIn</h3>
-https://sg.linkedin.com/in/wesley-kam-637257a1
+### LinkedIn
+<https://sg.linkedin.com/in/wesley-kam-637257a1>
