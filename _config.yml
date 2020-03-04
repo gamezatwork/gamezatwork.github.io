@@ -272,8 +272,8 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-after_footer_scripts:
-  - /assets/js/bootstrap/bootstrap.bundle.min.js
+#after_footer_scripts:
+  #- /assets/js/bootstrap/bootstrap.bundle.min.js
  
 
 # HTML Compression
