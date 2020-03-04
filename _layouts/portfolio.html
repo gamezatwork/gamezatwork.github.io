@@ -77,7 +77,7 @@ gallery:
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-      <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+      <h1 id="page-title" class="page__title text-center">{{ page.title }}</h1>
     {% endunless %}
     <img src={{ page.splash_image }} alt={{ page.title}} >
     {% include gallery id="gallery" caption="Screenshots from the project" %}
