@@ -96,7 +96,8 @@ gallery:
     </ul>
 
     {% if page.project_link %}
-      <h2> {{ page.project_link_header }} </h2>
+      {% assign header_text = page.project_link_header | default: layout.project_link_header %}
+      <h2> {{ header_text }} </h2>
       <a href="{{ page.project_link }}" class="btn btn--primary">{{ page.project_link_button_text }}</a>
     {% endif %}
   </div>
