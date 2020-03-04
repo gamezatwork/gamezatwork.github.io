@@ -1,7 +1,8 @@
 ---
 title: Works
-layout: collection
+layout: portfolio-main
 permalink: /portfolio/
 collection: portfolio
+collection_tags: ["Work","Project"]
 entries_layout: grid
 ---
