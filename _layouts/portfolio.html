@@ -12,21 +12,13 @@ roles: []               #What roles did you take in this project?
 project_summary:        #What is the project about?
 project_description:    #What is the background of this project?
 job_details: []         #List of all the exact stuff you did for this project
+splash_image:           #The main image shown at the top of the page
 
 gallery:
   - url:                #URL of the large image
     image_path:         #URL of the image to show in the gallery
     alt:                #Alternate text for the image
     title:              #Title text for the image
-
-images:
-- url:                #URL of the large image
-  title:              #Title text for the image
-  caption:            #Caption for the image
-
-sidebar:  
-  - title: "Date"
-    text: "{{ page.end_date }}"
 
 ---
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
@@ -82,7 +74,8 @@ sidebar:
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {% include carousel.html name="Images" images=page.images %}
+    <img src={{ page.splash_image }} alt={{ page.title}} >
+    {% include gallery %}
     {{ content }}
     <h2> Project Summary </h2>
     <p>{{ page.project_summary }}</p>
