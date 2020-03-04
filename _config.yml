@@ -273,7 +273,6 @@ tag_archive:
 #     tag: /tags/:name/
 
 after_footer_scripts:
-  - /assets/js/bootstrap/jquery.min.js
   - /assets/js/bootstrap/bootstrap.bundle.min.js
  
 
