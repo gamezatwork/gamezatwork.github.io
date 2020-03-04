@@ -19,6 +19,11 @@ gallery:
     alt:                #Alternate text for the image
     title:              #Title text for the image
 
+images:
+- url:                #URL of the large image
+  title:              #Title text for the image
+  caption:            #Caption for the image
+
 sidebar:  
   - title: "Date"
     text: "{{ page.end_date }}"
@@ -78,6 +83,7 @@ sidebar:
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {% include gallery id="gallery" caption="Screenshots from the project" %}
+    {% include carousel.html name="Images" images=site.images %}
     {{ content }}
     <h2> Project Summary </h2>
     <p>{{ page.project_summary }}</p>
