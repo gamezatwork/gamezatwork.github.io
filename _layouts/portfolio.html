@@ -94,11 +94,6 @@ gallery:
       <li> {{ job }} </li>
     {% endfor %}
     </ul>
-
-    {% if page.youtube_video_code %}
-      <h2> Video </h2>
-      {% include video id= "{{ page.youtube_video_code }}" provider="youtube" %}
-    {% endif %}
   </div>
 </div>
 
