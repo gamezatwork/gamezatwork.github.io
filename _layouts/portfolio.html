@@ -97,7 +97,9 @@ gallery:
 
     {% if page.youtube_video_code %}
       <h2> Video </h2>
-      {% include video id= {{ page.youtube_video_code }} provider="youtube" %}
+      <div class="responsive-video-container">
+        <iframe src="https://www.youtube-nocookie.com/embed/{{ page.youtube_video_code }}" frameborder="0" allowfullscreen></iframe>
+      </div>
     {% endif %}
 
     {% if page.project_link %}
