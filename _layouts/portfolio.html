@@ -94,6 +94,11 @@ gallery:
       <li> {{ job }} </li>
     {% endfor %}
     </ul>
+
+    {% if page.project_link %}
+      <h2> {{ page.project_link_header }} </h2>
+      <a href="#{{ page.project_link }}" class="btn btn--primary">{{ page.project_link_button_text }}</a>
+    {% endif %}
   </div>
 </div>
 
