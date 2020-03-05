@@ -5,8 +5,10 @@ layout: archive
 {{ content }}
 
 {% for collection_tag in page.collection_tags %}
-<h2>{{ collection_tag }} </h2>
-<div class="entries-{{ page.entries_layout }}">
-{% include documents-collection-tagged.html collection=page.collection tag=collection_tag sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<div style="clear:both;">
+    <h2>{{ collection_tag }} </h2>
+    <div class="entries-{{ page.entries_layout }}"></div>
+    {% include documents-collection-tagged.html collection=page.collection tag=collection_tag sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    </div>
 </div>
 {% endfor %}
