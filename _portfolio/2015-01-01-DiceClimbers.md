@@ -1,6 +1,7 @@
 ---
-title: "I Will End This Nightmare"
+title: "Dice Climbers"
 engine: Custom
+tags: ["Project"]
 platforms: ['PC']
 end_date: 2016-04-01
 language: ['C++']

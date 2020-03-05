@@ -1,5 +1,6 @@
 ---
-title: "I Will End This Nightmare"
+title: "Before Winter Arrives"
+tags: ["GameJam"]
 engine: Custom
 platforms: ['PC']
 end_date: 2016-04-01

@@ -3,11 +3,18 @@ layout: archive
 ---
 
 {{ content }}
-
-{% for collection_tag in page.collection_tags %}
 <div style="clear:both;">
-    <h2>{{ collection_tag }} </h2>
+    <h2> Works </h2>
     <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag=collection_tag sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-tagged.html collection=page.collection tag="Work" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
-{% endfor %}
+<div style="clear:both;">
+    <h2> Game Jams </h2>
+    <div class="entries-{{ page.entries_layout }}"></div>
+    {% include documents-collection-tagged.html collection=page.collection tag="GameJam" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
+<div style="clear:both;">
+    <h2> Projects </h2>
+    <div class="entries-{{ page.entries_layout }}"></div>
+    {% include documents-collection-tagged.html collection=page.collection tag="Projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+</div>
