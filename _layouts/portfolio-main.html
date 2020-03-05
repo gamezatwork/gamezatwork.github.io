@@ -5,25 +5,26 @@ classes: wide
 
 entries_layout: grid
 sort_by: 'date'
+sort_order: 'reverse'
 ---
 
 {{ content }}
 <div style="clear:both;">
-    <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<div class="entries-{{ page.entries_layout }}"></div>
+{% include documents-collection-tagged.html collection=page.collection tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=list %}
 </div>
 <div style="clear:both;">
-    <h2> Other Works </h2>
-    <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="Work" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<h2> Other Works </h2>
+<div class="entries-{{ page.entries_layout }}"></div>
+{% include documents-collection-tagged.html collection=page.collection tag="Work" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
 <div style="clear:both;">
-    <h2> Game Jams </h2>
-    <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="GameJam" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<h2> Game Jams </h2>
+<div class="entries-{{ page.entries_layout }}"></div>
+{% include documents-collection-tagged.html collection=page.collection tag="GameJam" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
 <div style="clear:both;">
-    <h2> Projects </h2>
-    <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="Project" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+<h2> Projects </h2>
+<div class="entries-{{ page.entries_layout }}"></div>
+{% include documents-collection-tagged.html collection=page.collection tag="Project" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
