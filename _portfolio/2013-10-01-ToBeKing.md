@@ -45,4 +45,7 @@ gallery:
     image_path: /assets/images/IWETN/IWETN_Editor_03.jpg
     alt: "IWETN_Editor_03"
     title: "Another screenshot of the Behaviour Tree Editor"
+
+header:
+  teaser: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
 ---
