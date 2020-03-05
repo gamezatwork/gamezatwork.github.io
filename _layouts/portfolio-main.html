@@ -1,20 +1,22 @@
 ---
 layout: archive
+
+sort_order: reverse
 ---
 
 {{ content }}
 <div style="clear:both;">
     <h2> Works </h2>
     <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="Work" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-tagged.html collection=page.collection tag="Work" not_tags=["Hide"] sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
 <div style="clear:both;">
     <h2> Game Jams </h2>
     <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="GameJam" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-tagged.html collection=page.collection tag="GameJam" not_tags=["Hide"] sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
 <div style="clear:both;">
     <h2> Projects </h2>
     <div class="entries-{{ page.entries_layout }}"></div>
-    {% include documents-collection-tagged.html collection=page.collection tag="Projects" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
+    {% include documents-collection-tagged.html collection=page.collection tag="Project" not_tags=["Hide"] sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>
