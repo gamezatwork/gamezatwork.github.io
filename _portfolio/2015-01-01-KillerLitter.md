@@ -1,6 +1,6 @@
 ---
 title: "Killer Litter"
-tags: ["Project"]
+tags: ["Project", "Hide"]
 engine: Custom
 platforms: ['PC']
 end_date: 2016-04-01

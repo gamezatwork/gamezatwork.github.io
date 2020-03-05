@@ -2,7 +2,7 @@
 title: "Dice Climbers"
 engine: Custom
 tags: ["Project"]
-platforms: ['PC']
+platforms: ['Physical']
 end_date: 2016-04-01
 language: ['C++']
 tools: ['OpenGL','wxWidgets']

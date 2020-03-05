@@ -15,7 +15,7 @@
 {% endif %}
 
 {%- for post in entries -%}
-  {% unless post.tags contains include.not_tags %}
+  {% unless post.tags contains include.not_tag or post.tags contains "Hide" %}
     {% include archive-single.html %}
   {% endunless %}
 {%- endfor -%}
