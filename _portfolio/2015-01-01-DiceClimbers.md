@@ -18,6 +18,9 @@ project_description: |
 job_details: 
 - Designed and created the entire game
 splash_image: "/assets/images/DiceClimbers/DiceClimbers_01.jpg"
+project_link_header: Click here to download the game manual!
+project_link_button_text: Download Manual
+project_link: "https://9eedfc52-b6a3-4232-8a95-c1da93606b2f.filesusr.com/ugd/c3eab0_42c61a7165544f6988ca1a2b41ec8511.doc?dn=DiceClimbersManual.doc"
 
 gallery:
   - url: /assets/images/DiceClimbers/DiceClimbers_Box.jpg
