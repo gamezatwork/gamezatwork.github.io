@@ -35,6 +35,7 @@ job_details:
 - Created the component and game object system for the engine, which is able to add, remove and modify components on run-time, and can be serialized/deserialized into json files, and changed or created within the editor.
 - Implemented the interaction system, which allowed for easy additions for new ways to interact with new objects, along with draw connector lines within the game itself.
 splash_image: "/assets/images/CriminalWizards/CriminalWizards_Gameplay_Title.jpg"
+youtube_video_code: Gc999QUV6ks
 project_link: "http://games.digipen.edu/games/criminal-wizards#.VxtMmfl95aQ"
 
 gallery:

@@ -1,48 +1,49 @@
 ---
 title: "War Of Prophecies"
+tags: 
+- Project
 engine: Custom
-tags: ["Project"]
-platforms: ['PC']
-end_date: 2016-04-01
-language: ['C++']
-tools: ['OpenGL','wxWidgets']
-team_size: 12
-roles: ['AI Designer/Programmer', 'Tools Creator', 'Gameplay Programmer']
-project_short_summary: A 3rd Person Action Platformer where you have to beat off enemies by casting attacks and traverse through a dreamscape to end the character's nightmare.
-project_summary: I Will End This Nightmare is a 3D 3rd Person Action Platformer where you play as a girl trapped in the dream world. In order to escape, you must make use of your ability to cast spells by playing notes in the correct order, and ring all of the bells in the level, without getting defeated by the nightmares in the world.
-project_description: This project was created for a 6 month long school project. We managed to make our own custom engine using OpenGL and C++, along with our own Level Editor and Behaviour Tree Editor using wxWidgets.
-job_details: ['Created a level editor using wxWidgets for the team to use to create, save, and load levels, along with creating objects in the world and modifying them.', 'Created a Behaviour Tree editor using wxWidgets for the team to use, which was used to create cutscenes, enemy behaviours, and gameplay elements.', 'Designed all enemies in the game, along with the miniboss and boss.', ' Implemented most of the enemies in the game, including the miniboss and boss.', 'Implemented Flocking behaviour, and added extra modifications to it to allow it to have a leader in the flock, and not to merge with other flocks. (This was used for one of the main enemies in our game)', 'Implemented the "song" system (in which players chain together a set of keys to cause attacks to happen)']
-splash_image: "/assets/images/IWETN/IWETN_Gameplay_01.jpg"
-youtube_video_code: ODeKU3UaiBw
-project_link: "https://arcade.digipen.edu/games/i-will-end-this-nightmare"
+platforms: 
+- PC
+end_date: 2014-04-01
+language: 
+- C++
+tools: 
+- DigiPen's Graphics Engine
+- Windows C# Forms
+team_size: 3
+roles: 
+- Game Designer
+- Tools Creator
+- Gameplay Programmer
+project_short_summary: 2D multiplayer turn-based strategy game where you have to summon your troops on the fly, and manage both the troops and your turn order in order to defeat your opponent's army.
+project_summary: War of Prophecies is a 2D multiplayer turn-based strategy game where you have to summon your troops on the fly, and manage both the troops and your turn order in order to defeat your opponent's army.
+project_description: This project was created for a 3 month long school project. We were to use DigiPen's In-House Graphics Engine (Alpha Engine) and C++ in order to make a 2D game. We also made a level editor, to allow for quick iteration of levels, and prototyping various attacks and mechanics. 
+job_details: 
+- Took care of managing the game design document, along with conducting playtests (both physical and digital) within the team and outside of the team.
+- Balanced all the unit parameters against each other, along with their attacks and costs.
+- Created and implemented the Turn Order system, in which each unit's attacks will affect when their next turn is, and some units can unleash attacks on areas after a period of time.
+- Implemented the UI system and cutscene system for the game.
+- Created a level editor for the team using Windows Forms in C#, which is able to save and load levels.
+- Created and implemented all attacks in the game, and liaisoned with the artist and producer in order to ensure that the graphics matched the required experience.
+splash_image: "/assets/images/WarOfProphecies/WarOfProphecies_Gameplay_01.jpg"
+youtube_video_code: Vw6bZ5ku_v4
+project_link: "http://games.digipen.edu/games/war-of-prophecies#.VxtNuvl95aQ"
 
 gallery:
-  - url: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
-    alt: "IWETN_Gameplay_Title"
+  - url: /assets/images/WarOfProphecies/WarOfProphecies_Gameplay_Title.jpg
+    image_path: /assets/images/WarOfProphecies/WarOfProphecies_Gameplay_Title.jpg
+    alt: "WarOfProphecies_Title"
     title: "Title screen for the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_01.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_01.jpg
-    alt: "IWETN_Gameplay_01"
-    title: "Screenshot from the first level of the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_02.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_02.jpg
-    alt: "IWETN_Gameplay_02"
-    title: "Screenshot from within the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_03.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_03.jpg
-    alt: "IWETN_Gameplay_03"
-    title: "Another screenshot from within the game"
-  - url: /assets/images/IWETN/IWETN_Editor_01.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_01.jpg
-    alt: "IWETN_Editor_01"
-    title: "Screenshot of the Level Editor"
-  - url: /assets/images/IWETN/IWETN_Editor_02.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_02.jpg
-    alt: "IWETN_Editor_02"
-    title: "Screenshot of the Behaviour Tree Editor"
-  - url: /assets/images/IWETN/IWETN_Editor_03.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_03.jpg
-    alt: "IWETN_Editor_03"
-    title: "Another screenshot of the Behaviour Tree Editor"
+  - url: /assets/images/WarOfProphecies/WarOfProphecies_Gameplay_01.jpg
+    image_path: /assets/images/WarOfProphecies/WarOfProphecies_Gameplay_01.jpg
+    alt: "WarOfProphecies_Gameplay_01"
+    title: "Screenshot of the gameplay"
+  - url: /assets/images/WarOfProphecies/WarOfProphecies_Editor_01.jpg
+    image_path: /assets/images/WarOfProphecies/WarOfProphecies_Editor_01.jpg
+    alt: "WarOfProphecies_Editor_01"
+    title: "Screenshot of the editor"
+
+header:
+  teaser: /assets/images/WarOfProphecies/WarOfProphecies_Gameplay_01.jpg
 ---
