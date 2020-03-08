@@ -1,51 +1,38 @@
 ---
 title: "Roach Flick"
-engine: Custom
-tags: ["Work"]
-platforms: ['PC']
-end_date: 2016-04-01
-language: ['C++']
-tools: ['OpenGL','wxWidgets']
-team_size: 12
-roles: ['AI Designer/Programmer', 'Tools Creator', 'Gameplay Programmer']
-project_short_summary: A 3rd Person Action Platformer where you have to beat off enemies by casting attacks and traverse through a dreamscape to end the character's nightmare.
-project_summary: I Will End This Nightmare is a 3D 3rd Person Action Platformer where you play as a girl trapped in the dream world. In order to escape, you must make use of your ability to cast spells by playing notes in the correct order, and ring all of the bells in the level, without getting defeated by the nightmares in the world.
-project_description: This project was created for a 6 month long school project. We managed to make our own custom engine using OpenGL and C++, along with our own Level Editor and Behaviour Tree Editor using wxWidgets.
-job_details: ['Created a level editor using wxWidgets for the team to use to create, save, and load levels, along with creating objects in the world and modifying them.', 'Created a Behaviour Tree editor using wxWidgets for the team to use, which was used to create cutscenes, enemy behaviours, and gameplay elements.', 'Designed all enemies in the game, along with the miniboss and boss.', ' Implemented most of the enemies in the game, including the miniboss and boss.', 'Implemented Flocking behaviour, and added extra modifications to it to allow it to have a leader in the flock, and not to merge with other flocks. (This was used for one of the main enemies in our game)', 'Implemented the "song" system (in which players chain together a set of keys to cause attacks to happen)']
-splash_image: "/assets/images/IWETN/IWETN_Gameplay_01.jpg"
-youtube_video_code: ODeKU3UaiBw
-project_link: "https://arcade.digipen.edu/games/i-will-end-this-nightmare"
+tags: 
+- Work
+engine: Unity
+platforms: 
+- iOS
+- Android
+end_date: 2011-11-01
+language: 
+- C#
+tools: 
+- Unity
+team_size: 5
+roles: 
+- Programmer
+project_short_summary: Simple Action mobile game where you have to swipe roaches crawling over the table into the toilet bowl to gain points.
+project_summary: |
+  Roach Flick is a simple Action mobile game where you have to prevent roaches from infesting your table by flicking them into the toilet.  
+  Different roaches will require different approaches to get rid of, such as the Bomb Roach which will explode upon being tapped, or the Fat Roach which requires the player to tap it multiple times to make it flip.
+project_description: |
+  This project was created under the company TigerPunch, which I was part of during August 2011 to November 2011.  
+  It was successfully shipped to the Apple game store and Google Play Store in November 2011.
+job_details: 
+- Implemented all touch screen functionalities for the game, such as tapping, flicking, and interacting with UIs.
+- Implemented the tapping and flicking mechanic for all the different kinds of roaches, including feedback and scoring.
+- Was in charge of getting the games on both the Apple and Google stores, including getting licenses, sending the game for approval, and setting up the game's resolutions for different types of phones.
+splash_image: "/assets/images/RoachFlick/RoachFlick_01.jpg"
 
 gallery:
-  - url: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
-    alt: "IWETN_Gameplay_Title"
-    title: "Title screen for the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_01.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_01.jpg
-    alt: "IWETN_Gameplay_01"
-    title: "Screenshot from the first level of the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_02.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_02.jpg
-    alt: "IWETN_Gameplay_02"
-    title: "Screenshot from within the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_03.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_03.jpg
-    alt: "IWETN_Gameplay_03"
-    title: "Another screenshot from within the game"
-  - url: /assets/images/IWETN/IWETN_Editor_01.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_01.jpg
-    alt: "IWETN_Editor_01"
-    title: "Screenshot of the Level Editor"
-  - url: /assets/images/IWETN/IWETN_Editor_02.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_02.jpg
-    alt: "IWETN_Editor_02"
-    title: "Screenshot of the Behaviour Tree Editor"
-  - url: /assets/images/IWETN/IWETN_Editor_03.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_03.jpg
-    alt: "IWETN_Editor_03"
-    title: "Another screenshot of the Behaviour Tree Editor"
+  - url: /assets/images/RoachFlick/RoachFlick_01.jpg
+    image_path: /assets/images/RoachFlick/RoachFlick_01.jpg
+    alt: "RoachFlick_01"
+    title: "Screenshot of the gameplay"
 
 header:
-  teaser: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
+  teaser: /assets/images/RoachFlick/RoachFlick_01.jpg
 ---
