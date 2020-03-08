@@ -21,10 +21,10 @@ roles:
 project_short_summary: 2D real-time strategy/puzzle game where you control 3 elemental wizards and have to make use of their abilities to interact with the environment and escape the level.
 project_summary: |
   Criminal Wizards is a 2D real-time strategy/puzzle game where you control 3 elemental wizards, Firey, Windy, and Sparky, and have to make use of their abilities to interact with the environment and escape the level.  
+  Each level will usually have multiple ways of solving them using different combinations of the characters' abilities and objects in the level.  
   * Firey can light objects (and people) up, and cause some electrical objects to explode, knocking out nearby people, but he is unable to go up stairs (due to being on a wheelchair).  
   * Windy can blow objects (and people) away, and will not take damage from falling.  
   * Finally, Sparky is able to resuscitate unconcious allies, speed them up, and electrify objects and enemies. However, she is unable to open doors due to her height.  
-  Each level will usually have multiple ways of solving them using different combinations of the characters' abilities and objects in the level.
 project_description: This project was created for a 6 month long school project. We managed to make our own custom engine using OpenGL and C++, along with our own in-engine Level Editor and Game Object creator using AntTweakBar. 
 job_details: 
 - Took care of managing the schedule of the group, and setting individual milestones of the group members, along with managing the scope of the project and liaisoning with the lecturers for feedback.
