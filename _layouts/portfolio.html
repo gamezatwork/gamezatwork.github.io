@@ -51,20 +51,24 @@ gallery:
     {% else %}
     <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</time>
     {% endif %}
+    {% if page.engine %}
     <h3>Engine</h3> 
     <p>{{ page.engine }}</p>
+    {% endif %}
     <h3>Platforms</h3> 
     <ul>
     {% for platform in page.platforms %}
       <li>{{platform}}</li>
     {% endfor %}
     </ul>
+    {% if page.language %}
     <h3>Languages</h3> 
     <ul>
     {% for language in page.language %}
       <li>{{language}}</li>
     {% endfor %}
     </ul>
+    {% endif %}
     <h3>Tools I worked with</h3> 
     <ul>
     {% for tool in page.tools %}
