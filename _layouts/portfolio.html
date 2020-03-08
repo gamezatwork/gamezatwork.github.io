@@ -41,7 +41,9 @@ gallery:
 <div id="main" role="main">
   <div class="sidebar sticky">
     <h3>Date</h3> 
-    {% if page.date != page.end_date %}
+    {% assign start_date = page.date | date: '%s' %}
+    {% assign finish_date = page.end_date | date: '%s' %}
+    {% if start_date != finish_date %}
     <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</time>
     -
     <time datetime="{{ page.end_date | date: "%Y-%m-%d" }}">{{ page.end_date | date: "%B %Y" }}</time>
