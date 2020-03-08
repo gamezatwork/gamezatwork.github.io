@@ -39,5 +39,5 @@ gallery:
     title: "Screenshot of the game"
 
 header:
-  teaser: /assets/images/CyberBattle/CyberBattle_01.jpg
+  teaser: /assets/images/CyberBattle/CyberBattle_01.png
 ---
