@@ -25,14 +25,14 @@ job_details:
 - Implemented all touch screen functionalities for the game, such as tapping, flicking, and interacting with UIs.
 - Implemented the tapping and flicking mechanic for all the different kinds of roaches, including feedback and scoring.
 - Was in charge of getting the games on both the Apple and Google stores, including getting licenses, sending the game for approval, and setting up the game's resolutions for different types of phones.
-splash_image: "/assets/images/RoachFlick/RoachFlick_01.jpg"
+splash_image: "/assets/images/RoachFlick/RoachFlick_01.png"
 
 gallery:
-  - url: /assets/images/RoachFlick/RoachFlick_01.jpg
-    image_path: /assets/images/RoachFlick/RoachFlick_01.jpg
+  - url: /assets/images/RoachFlick/RoachFlick_01.png
+    image_path: /assets/images/RoachFlick/RoachFlick_01.png
     alt: "RoachFlick_01"
     title: "Screenshot of the gameplay"
 
 header:
-  teaser: /assets/images/RoachFlick/RoachFlick_01.jpg
+  teaser: /assets/images/RoachFlick/RoachFlick_01.png
 ---
