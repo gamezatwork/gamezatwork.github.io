@@ -75,8 +75,10 @@ gallery:
       <li>{{tool}}</li>
     {% endfor %}
     </ul>
+    {% if page.team_size %}
     <h3>Team Size</h3> 
     <p>{{page.team_size}}</p>
+    {% endif %}
     <h3>Roles</h3> 
     <ul>
     {% for role in page.roles %}
