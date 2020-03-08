@@ -3,6 +3,7 @@ title: About me
 layout: single
 permalink: /about_me/
 author_profile: true
+classes: wide
 ---
 ## Biography
 Hey there! I'm Wesley, currently a Technical Designer in Bandai Namco Studios Singapore.  
