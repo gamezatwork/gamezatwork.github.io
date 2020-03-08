@@ -1,48 +1,41 @@
 ---
 title: "Tap Defenders"
-tags: ["Work"]
-engine: Custom
-platforms: ['PC']
-end_date: 2016-04-01
-language: ['C++']
-tools: ['OpenGL','wxWidgets']
-team_size: 12
-roles: ['AI Designer/Programmer', 'Tools Creator', 'Gameplay Programmer']
-project_short_summary: A 3rd Person Action Platformer where you have to beat off enemies by casting attacks and traverse through a dreamscape to end the character's nightmare.
-project_summary: I Will End This Nightmare is a 3D 3rd Person Action Platformer where you play as a girl trapped in the dream world. In order to escape, you must make use of your ability to cast spells by playing notes in the correct order, and ring all of the bells in the level, without getting defeated by the nightmares in the world.
-project_description: This project was created for a 6 month long school project. We managed to make our own custom engine using OpenGL and C++, along with our own Level Editor and Behaviour Tree Editor using wxWidgets.
-job_details: ['Created a level editor using wxWidgets for the team to use to create, save, and load levels, along with creating objects in the world and modifying them.', 'Created a Behaviour Tree editor using wxWidgets for the team to use, which was used to create cutscenes, enemy behaviours, and gameplay elements.', 'Designed all enemies in the game, along with the miniboss and boss.', ' Implemented most of the enemies in the game, including the miniboss and boss.', 'Implemented Flocking behaviour, and added extra modifications to it to allow it to have a leader in the flock, and not to merge with other flocks. (This was used for one of the main enemies in our game)', 'Implemented the "song" system (in which players chain together a set of keys to cause attacks to happen)']
-splash_image: "/assets/images/IWETN/IWETN_Gameplay_01.jpg"
-youtube_video_code: ODeKU3UaiBw
-project_link: "https://arcade.digipen.edu/games/i-will-end-this-nightmare"
+tags: 
+- Work
+engine: Unity
+platforms: 
+- iOS
+end_date: 2015-03-01
+language: 
+- C#
+tools: 
+- Unity
+team_size: 4
+roles: 
+- Programmer
+project_short_summary: Resource management and strategy mobile game where you have to protect a village from enemy attacks by tapping on foes and summoning allies to assist you.
+project_summary: Tap Defenders is a simple Real-time Strategy mobile game where you have to protect a town from monster attacks by either tapping them directly, or hiring extra units to help attack. You are also able to upgrade your own skills instead of hiring units.
+project_description: |
+  This project was commissioned as part of a research project regarding the effects of In-game purchases and screen size.
+  Two versions of the game were made, where one had a cash shop, in which players could use "real-world money" (simulated using a limited supply of virtual money separate from the gold obtained within the game) to purchase new units, get large amounts of gold, or extra items.
+  The game was also made for both the iPhone and iPad, in order to test out the effects of screen size.
+  The research paper, "Flow and Mobile Gaming: The Effects of In-Game Purchases and Screen Size", was presented at the ICA Conference 2016 in Fukuoka.
+job_details: 
+- Work together with the client and the team to set up the schedule and workflow for the entire team, including soft milestones, progress updates, scoping, and payment.
+- Implemented the main mechanic of tapping to attack, and summoning extra units to assist in attacking, along with implementing all enemies and units.
+- Was in charge of setting up the project and game such that it could be easily exported to the iPhone and iPad, including resolution settings and getting the licenses.
+splash_image: "/assets/images/TapDefenders/TapDefenders_01.jpg"
 
 gallery:
-  - url: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_Title.jpg
-    alt: "IWETN_Gameplay_Title"
+  - url: /assets/images/TapDefenders/TapDefenders_Title.jpg
+    image_path: /assets/images/TapDefenders/TapDefenders_Title.jpg
+    alt: "TapDefenders_Title"
     title: "Title screen for the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_01.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_01.jpg
-    alt: "IWETN_Gameplay_01"
-    title: "Screenshot from the first level of the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_02.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_02.jpg
-    alt: "IWETN_Gameplay_02"
-    title: "Screenshot from within the game"
-  - url: /assets/images/IWETN/IWETN_Gameplay_03.jpg
-    image_path: /assets/images/IWETN/IWETN_Gameplay_03.jpg
-    alt: "IWETN_Gameplay_03"
-    title: "Another screenshot from within the game"
-  - url: /assets/images/IWETN/IWETN_Editor_01.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_01.jpg
-    alt: "IWETN_Editor_01"
-    title: "Screenshot of the Level Editor"
-  - url: /assets/images/IWETN/IWETN_Editor_02.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_02.jpg
-    alt: "IWETN_Editor_02"
-    title: "Screenshot of the Behaviour Tree Editor"
-  - url: /assets/images/IWETN/IWETN_Editor_03.jpg
-    image_path: /assets/images/IWETN/IWETN_Editor_03.jpg
-    alt: "IWETN_Editor_03"
-    title: "Another screenshot of the Behaviour Tree Editor"
+  - url: /assets/images/TapDefenders/TapDefenders_01.jpg
+    image_path: /assets/images/TapDefenders/TapDefenders_01.jpg
+    alt: "TapDefenders_01"
+    title: "Screenshot of the gameplay"
+
+header:
+  teaser: /assets/images/TapDefenders/TapDefenders_01.jpg
 ---
