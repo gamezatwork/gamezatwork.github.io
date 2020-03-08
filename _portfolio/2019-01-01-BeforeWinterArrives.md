@@ -19,7 +19,7 @@ project_short_summary: Follow a traveller who has abandoned the shackles of city
 project_summary: |
   Before Winter Arrives is a 2D adventure game where you have to try getting resources and bring it home by slingshotting your character around.
 project_description: |
-  This project was created as an entry to the Global Game Jam 20190 under the theme of "What home means to you", and had to be made within 48 hours. All assets, from graphics, to sounds, to scripts, were created from scratch within that time.  
+  This project was created as an entry to the Global Game Jam 2019 under the theme of "What home means to you", and had to be made within 48 hours. All assets, from graphics, to sounds, to scripts, were created from scratch within that time.  
 job_details: 
 - Designed and implemented the main mechanic
 - Created the art for the entire game
