@@ -83,10 +83,10 @@ gallery:
     {% include gallery id="gallery" caption="Screenshots from the project" %}
     {{ content }}
     <h2> Project Summary </h2>
-    <p>{{ page.project_summary }}</p>
+    <p>{{ page.project_summary | markdownify}}</p>
 
     <h2> Project Description </h2>
-    <p>{{ page.project_description }}</p>
+    <p>{{ page.project_description | markdownify}}</p>
 
     <h2> Job Details </h2>
     <ul>
