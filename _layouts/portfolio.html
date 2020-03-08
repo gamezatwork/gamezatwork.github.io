@@ -41,10 +41,14 @@ gallery:
 <div id="main" role="main">
   <div class="sidebar sticky">
     <h3>Date</h3> 
+    {% if page.date != page.end_date %}
     <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</time>
     -
     <time datetime="{{ page.end_date | date: "%Y-%m-%d" }}">{{ page.end_date | date: "%B %Y" }}</time>
     </p>
+    {% else %}
+    <p><time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date: "%B %Y" }}</time>
+    {% endif %}
     <h3>Engine</h3> 
     <p>{{ page.engine }}</p>
     <h3>Platforms</h3> 
