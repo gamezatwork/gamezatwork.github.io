@@ -13,7 +13,9 @@ tools:
 team_size: 3
 roles: 
 - Gameplay Programmer
-project_short_summary: Play as an astronaut and repair the earth or rebuild an earth of your liking! Left Click to shoot out blocks.
+project_short_summary: |
+  Play as an astronaut and repair the earth or rebuild an earth of your liking! Left Click to shoot out pieces of the earth back onto the core, and try to get all the pieces attached to the core before the time limit! 
+project_extra_notes: Created for Global Game Jam 2020.
 project_summary: |
   Ace Earth Repair is a 2D puzzle-action game where you play as an astronaut trying to repair earth by shooting all the broken bits of earth back at the core.
 project_description: |

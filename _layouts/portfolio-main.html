@@ -9,17 +9,13 @@ sort_order: 'reverse'
 ---
 
 {{ content }}
-{% include portfolio-entry-list.html collection=page.collection tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=list hide_tools=true%}
-<h2> Other Professional Works </h2>
-{% include portfolio-entry-list.html collection=page.collection tag="Work" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=list hide_tools=true%}
+{% include portfolio-entry-list.html collection=page.collection tag="Major" type="large" hide_tools=true%}
+<h2 style="text-decoration: underline; text-align: center;"> Other Professional Works </h2>
+{% include portfolio-entry-list.html collection=page.collection tag="Work" not_tag="Major" type="large" hide_tools=true%}
+<h2 style="text-decoration: underline; text-align: center;"> Game Jams </h2>
+{% include portfolio-entry-list.html collection=page.collection tag="GameJam" not_tag="Major" type="medium" hide_tools=true%}
 <div style="clear:both;">
-<h2> Game Jams </h2>
-<div class="entries-{{ page.entries_layout }}">
-{% include documents-collection-tagged.html collection=page.collection tag="GameJam" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
-</div>
-<div style="clear:both;">
-<h2> Older Projects </h2>
+<h2 style="text-decoration: underline; text-align: center;"> Older Projects </h2>
 <div class="entries-{{ page.entries_layout }}">
 {% include documents-collection-tagged.html collection=page.collection tag="Project" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
 </div>

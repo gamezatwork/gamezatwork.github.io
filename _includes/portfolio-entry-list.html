@@ -1,9 +1,22 @@
 {% assign entries = site[include.collection] | where_exp:"item","item.tags contains include.tag" | sort: 'date' | reverse %}
+{% assign entry-type = include.type | default: "large" %}
 
-<div class="portfolio_entry-large">
+{% assign main-class = "portfolio_entry" %}
+{% if entry-type == "large" %}
+{% assign sub-class = "portfolio_entry-large" %}
+{% elsif entry-type == "medium" %}
+{% assign sub-class = "portfolio_entry-medium" %}
+{% endif %}
+{% capture combined-class %}{{ main-class }} {{sub-class}}{% endcapture %}
+
+<div class="{{combined-class}}">
 {%- for post in entries -%}
     {% unless post.tags contains include.not_tag or post.tags contains "Hide" %}
-        {% include portfolio-entry-large.html entry=post%}
+        {% if entry-type == "large" %}
+        {% include portfolio-entry-large.html entry=post %}
+        {% elsif entry-type == "medium" %}
+        {% include portfolio-entry-medium.html entry=post %}
+        {% endif %}
     {% endunless %}
 {%- endfor -%}
 </div>
