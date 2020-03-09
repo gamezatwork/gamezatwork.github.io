@@ -9,6 +9,7 @@
     border-bottom: solid thin gray;
     width:100%;
     padding-top: 1rem;
+    padding-bottom:1rem;
     filter: opacity(75%);
     transition: all ease 0.5s;
 }
@@ -17,8 +18,12 @@
     text-align: center;
     display: block;
     margin: 0 auto;
-    line-height: 0em;
+    line-height: 1;
     width: 80%;
+}
+
+.portfolio_entry .entry .description > p{
+    margin-bottom: 0;
 }
 
 .portfolio_entry-medium {
@@ -50,6 +55,41 @@
 }
 
 .portfolio_entry-medium .entry:hover{
+    filter: opacity(100%);
+    transition: all ease 0.5s;
+}
+
+.portfolio_entry-small {
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-evenly;
+}
+
+.portfolio_entry-small .entry{
+    border-bottom: none;
+    display:block;
+    width: 12em;
+}
+
+.portfolio_entry-small .entry img{
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+    width:80%;
+    height:5em;
+}
+
+.portfolio_entry-small .entry .description{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    width: 80%;
+    line-height: 1em;
+}
+
+.portfolio_entry-small .entry:hover{
     filter: opacity(100%);
     transition: all ease 0.5s;
 }
@@ -89,5 +129,4 @@
 
 .roles{
     font-style: italic;
-    line-height: 0.5em;
 }

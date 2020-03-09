@@ -2,6 +2,7 @@
 title: "War Of Prophecies"
 tags: 
 - Project
+- Small
 engine: Custom
 platforms: 
 - PC

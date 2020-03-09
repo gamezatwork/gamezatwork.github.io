@@ -2,6 +2,7 @@
 title: "Cyber Battle"
 tags: 
 - Project
+- Small
 engine: Unity
 platforms: 
 - HTC Vive

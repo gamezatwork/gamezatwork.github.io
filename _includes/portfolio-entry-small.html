@@ -1,0 +1,16 @@
+{% assign post = include.entry %}
+
+<article class="archive__item entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <div class="description">
+        <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0em;">
+            <a class="title" href="{{ post.url | relative_url }}" rel="permalink" aria-hidden="true">{{ post.title }}</a>
+        </h3>
+        <img src="{{ post.header.teaser }}">
+        {% if post.project_short_summary %}
+        <p class="summary"> {{post.project_short_summary | markdownify | strip_html}} </p>
+        {% endif %}
+        {% if post.project_extra_notes %}
+        <p class="summary"> {{post.project_extra_notes | markdownify | strip_html}} </p>
+        {% endif %}
+    </div>
+</article>
