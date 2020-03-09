@@ -9,17 +9,10 @@ sort_order: 'reverse'
 ---
 
 {{ content }}
-<div style="clear:both;">
-<div class="entries-{{ page.entries_layout }}">
-{% include documents-collection-tagged.html collection=page.collection tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=list %}
-</div>
-</div>
-<div style="clear:both;">
+<h2> Works </h2>
+{% include portfolio-entry-list.html collection=page.collection tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=list hide_tools=true%}
 <h2> Other Works </h2>
-<div class="entries-{{ page.entries_layout }}">
-{% include documents-collection-tagged.html collection=page.collection tag="Work" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=page.entries_layout %}
-</div>
-</div>
+{% include portfolio-entry-list.html collection=page.collection tag="Work" not_tag="Major" sort_by=page.sort_by sort_order=page.sort_order type=list hide_tools=true%}
 <div style="clear:both;">
 <h2> Game Jams </h2>
 <div class="entries-{{ page.entries_layout }}">
