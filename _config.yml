@@ -22,7 +22,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Wesley Kam's Portfolio"
 description              : "Wesley Kam's Portfolio"
 url                      : "https://gamezatwork.github.io/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : /
 repository               : "gamezatwork/gamezatwork.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
