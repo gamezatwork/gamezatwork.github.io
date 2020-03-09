@@ -3,41 +3,7 @@
 <div class="portfolio_entry-large">
 {%- for post in entries -%}
     {% unless post.tags contains include.not_tag or post.tags contains "Hide" %}
-        <article class="archive__item entry" itemscope itemtype="https://schema.org/CreativeWork">
-            <img src="{{ post.header.teaser }}">
-            <h1 class="archive__item-title description" itemprop="headline">
-                <a class="title" href="{{ post.url | relative_url }}" rel="permalink" aria-hidden="true">{{ post.title }}</a>
-            </h1>
-            <div class="description">
-                {% assign start_date = post.date | date: '%s' %}
-                {% assign finish_date = post.end_date | date: '%s' %}
-                {% if start_date != finish_date %}
-                <p class="date"><time datetime="{{ start_date | date: "%Y-%m-%d" }}">{{ start_date | date: "%B %Y" }}</time>
-                -
-                <time datetime="{{ finish_date | date: "%Y-%m-%d" }}">{{ finish_date | date: "%B %Y" }}</time>
-                </p>
-                {% else %}
-                <p class="date"><time datetime="{{ start_date | date: "%Y-%m-%d" }}">{{ start_date | date: "%B %Y" }}</time>
-                {% endif %}
-                {% if post.roles %}
-                <p class="roles"> {{post.roles | join: ", "}} </p>
-                {% endif %}
-                {% if post.project_short_summary %}
-                <p class="summary"> {{post.project_short_summary}} </p>
-                {% endif %}
-                {% if post.platforms %}
-                <p class="platforms"> Platform: {{post.platforms | join: ", "}}  </p>
-                {% endif %}
-                {% if post.engine %}
-                <p class="engine"> Engine: {{post.engine}}  </p>
-                {% endif %}
-                {% unless include.hide_tools or include.hide_tools==true%}
-                {% if post.tools %}
-                <p class="tools"> Main Tools: {{post.tools | join: ", "}}  </p>
-                {% endif %}
-                {% endunless %}
-            </div>
-        </article>
+        {% include portfolio-entry-large.html entry=post%}
     {% endunless %}
 {%- endfor -%}
 </div>

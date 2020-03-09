@@ -13,7 +13,8 @@ tools:
 team_size: 4
 roles: 
 - Programmer
-project_short_summary: Resource management and strategy mobile game where you have to protect a village from enemy attacks by tapping on foes and summoning allies to assist you.
+project_short_summary: |
+  Worked on a commissioned mobile game as part of a research project regarding the effects of In-game purchases and screen size, and created a resource management and strategy mobile game where you have to protect a village from enemy attacks by tapping on foes and summoning allies to assist you.
 project_summary: Tap Defenders is a simple Real-time Strategy mobile game where you have to protect a town from monster attacks by either tapping them directly, or hiring extra units to help attack. You are also able to upgrade your own skills instead of hiring units.
 project_description: |
   This project was commissioned as part of a research project regarding the effects of In-game purchases and screen size.  

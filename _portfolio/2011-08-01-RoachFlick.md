@@ -14,7 +14,8 @@ tools:
 team_size: 5
 roles: 
 - Programmer
-project_short_summary: Simple Action mobile game where you have to swipe roaches crawling over the table into the toilet bowl to gain points.
+project_short_summary: |
+  Worked in the studio Tiger Punch on the mobile game Roach Flick, which was a simple Action mobile game where you have to swipe roaches crawling over the table into the toilet bowl to gain points.
 project_summary: |
   Roach Flick is a simple Action mobile game where you have to prevent roaches from infesting your table by flicking them into the toilet.  
   Different roaches will require different approaches to get rid of, such as the Bomb Roach which will explode upon being tapped, or the Fat Roach which requires the player to tap it multiple times to make it flip.
