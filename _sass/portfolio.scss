@@ -128,5 +128,17 @@
 }
 
 .roles{
+    font-weight: bold;
+}
+
+.description .date{
     font-style: italic;
+}
+
+.portfolio-inner > p{
+    font-size: $type-size-5;
+}
+
+.portfolio-inner > ul{
+    font-size: $type-size-5;
 }

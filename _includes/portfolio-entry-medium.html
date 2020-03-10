@@ -6,6 +6,9 @@
         <h1 class="archive__item-title" itemprop="headline">
             <a class="title" href="{{ post.url | relative_url }}" rel="permalink" aria-hidden="true">{{ post.title }}</a>
         </h1>
+        {% if post.roles %}
+        <p class="roles"> {{post.roles | join: ", "}} </p>
+        {% endif %}
         {% assign start_date = post.date | date: '%s' %}
         {% assign finish_date = post.end_date | date: '%s' %}
         {% if start_date != finish_date %}
@@ -15,9 +18,6 @@
         </p>
         {% else %}
         <p class="date"><time datetime="{{ start_date | date: "%Y-%m-%d" }}">{{ start_date | date: "%B %Y" }}</time>
-        {% endif %}
-        {% if post.roles %}
-        <p class="roles"> {{post.roles | join: ", "}} </p>
         {% endif %}
         {% if post.project_short_summary %}
         <p class="summary"> {{post.project_short_summary | markdownify | strip_html}} </p>
