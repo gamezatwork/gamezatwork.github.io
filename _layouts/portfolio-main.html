@@ -7,14 +7,19 @@ entries_layout: grid
 sort_by: 'date'
 sort_order: 'reverse'
 ---
-
+<a name="top"></a>
 {{ content }}
+<a name="key-works"></a>
 {% include portfolio-entry-list.html collection=page.collection tag="Major" type="large" hide_tools=true%}
+<a name="professional-works"></a>
 <h2 style="text-decoration: underline; text-align: center;"> Other Professional Works </h2>
 {% include portfolio-entry-list.html collection=page.collection tag="Work" not_tag="Major" type="large" hide_tools=true%}
+<a name="projects"></a>
 <h2 style="text-decoration: underline; text-align: center;"> Projects </h2>
 {% include portfolio-entry-list.html collection=page.collection tag="Project" not_tag="Major" not_tag_2="Small" type="large" %}
+<a name="game-jams"></a>
 <h2 style="text-decoration: underline; text-align: center;"> Game Jams </h2>
 {% include portfolio-entry-list.html collection=page.collection tag="GameJam" not_tag="Major" type="medium" hide_tools=true%}
+<a name="side-projects"></a>
 <h2 style="text-decoration: underline; text-align: center;"> Side Projects </h2>
 {% include portfolio-entry-list.html collection=page.collection tag="Small" type="small" hide_tools=true%}

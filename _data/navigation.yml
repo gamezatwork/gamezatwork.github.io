@@ -12,3 +12,19 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+shortcut-links:
+- title: "Shortcuts"
+  children:
+    - title: "Top"
+      url: "#top"
+    - title: "Key Works"
+      url: "#key-works"
+    - title: "Other Professional Works"
+      url: "#professional-works"
+    - title: "Projects"
+      url: "#projects"
+    - title: "Game Jams"
+      url: "#game-jams"
+    - title: "Side Projects"
+      url: "#side-projects"
