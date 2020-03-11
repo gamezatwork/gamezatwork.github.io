@@ -26,6 +26,7 @@ gallery:
     title:              #Title text for the image
 
 ---
+
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
@@ -87,12 +88,37 @@ gallery:
     </ul>
   </div>
 
+  
+  </script>
   <div class="archive portfolio-inner">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 id="page-title" class="page__title text-center">{{ page.title }}</h1>
     {% endunless %}
-    <img src={{ page.splash_image }} alt={{ page.title}} >
-    {% include gallery id="gallery" caption="Screenshots from the project" %}
+    <!--<img src={{ page.splash_image }} alt={{ page.title}} > -->
+    <!--% include gallery id="gallery" caption="Screenshots from the project" %} -->
+    <ul id="portfolio-gallery" class="portfolio-gallery">
+      {% for item in page.gallery %}
+        <li data-thumb="{{ item.image_path }}" data-src="{{ item.image_path }}">
+          <div class="portfolio-gallery-item">
+            <img class="portfolio-gallery-item-image" src="{{ item.image_path }}"/>
+            <p class="portfolio-gallery-item-text">{{item.title}}</p>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+          $("#portfolio-gallery").lightSlider({
+            item:1,
+            loop:true,
+            auto:true,
+            controls:false,
+            gallery:true,
+            pauseOnHover:true
+          });
+      });
+    </script>
+
     {{ content }}
     <h2> Project Summary </h2>
     <p>{{ page.project_summary | markdownify }}</p>

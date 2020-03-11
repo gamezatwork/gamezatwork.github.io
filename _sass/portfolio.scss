@@ -142,3 +142,31 @@
 .portfolio-inner > ul{
     font-size: $type-size-5;
 }
+
+.portfolio-gallery-item{
+    text-align:center;
+    max-height: 600px;
+    overflow-y: hidden;
+    position:relative;
+}
+
+.portfolio-gallery-item-image{
+    //width:100%
+    max-height:600px;
+    object-fit: contain;
+}
+
+.portfolio-gallery-item-text{
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    position: absolute;
+    //top: 100%;
+    bottom:0;
+    //bottom:2em;
+    //width:inherit;
+    left:0;
+    right:0;
+    height:2em;
+    text-align: center;
+    margin: 0;
+}
