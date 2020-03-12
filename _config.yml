@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Wesley Kam's Portfolio"
 description              : "Wesley Kam's Portfolio"
-url                      : "https://wesleykam.com"
+url                      : "https://wesleykam.com/"
 baseurl                  : /
 repository               : "gamezatwork/gamezatwork.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
