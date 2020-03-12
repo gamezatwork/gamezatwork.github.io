@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 ## Biography
-After touching Macromedia Flash for the first time when I was young, I have been entranced by the idea of creating games, and always wanted to join the game industry as a Game Developer. This was pushed further by the various multiplayer games I played with my family such as Bomberman, Puzzle Bubble, and other JRPGs such as Chrono Trigger, the Final Fantasy series, and the Megaman Battle Network series.  
+After touching Macromedia Flash for the first time when I was young, I have been entranced by the idea of creating games, and always wanted to join the game industry as a Game Developer. This was pushed further by the various multiplayer games I played with my family such as Bomberman, Puzzle Bubble, and other JRPGs such as Chrono Trigger and the Final Fantasy series.  
 
 Upon finishing my High School education, I went to take a Diploma in Game Design and Development, followed by a Bachelors of Science in Game Design. Through them, I managed to learn alot for both Game Design (such as Level Design, Game Feel, and more) and Game Programming (including Vector Calculus, Programming Patterns, AI and Networking), and got to put them into practice through the various game projects we had to work on, some of which even involving the creation of our own game engines!  
 
