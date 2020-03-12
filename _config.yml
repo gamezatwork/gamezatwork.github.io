@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Wesley Kam's Portfolio"
 description              : "Wesley Kam's Portfolio"
-url                      : "https://gamezatwork.github.io/"
+url                      : "https://wesleykam.com"
 baseurl                  : /
 repository               : "gamezatwork/gamezatwork.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Wesley Kam"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Technical Designer"
+  bio              : "Game Developer trained in both Game Design and Programming who enjoys tackling new challenges, trying new things, and creating new ways to improve workflows for the team."
   location         : "Singapore"
   email            : "gamez.at.work@gmail.com"
   links:
@@ -118,7 +118,7 @@ author:
     #  url: mailto:gamez.at.work@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://gamezatwork.github.io"
+      url: "https://wesleykam.com"
     #- label: "Twitter"
     #  icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
