@@ -96,6 +96,7 @@ gallery:
     {% endunless %}
     <!--<img src={{ page.splash_image }} alt={{ page.title}} > -->
     <!--% include gallery id="gallery" caption="Screenshots from the project" %} -->
+    {% if page.gallery.size > 1 %}
     <ul id="portfolio-gallery" class="portfolio-gallery">
       {% for item in page.gallery %}
         <li data-thumb="{{ item.image_path }}" data-src="{{ item.image_path }}">
@@ -114,10 +115,21 @@ gallery:
             auto:true,
             controls:false,
             gallery:true,
-            pauseOnHover:true
+            pauseOnHover:true,
+            addClass: 'center-thumbs'
           });
       });
     </script>
+    {% else %}
+    <div id="portfolio-gallery" class="portfolio-gallery">
+      {% for item in page.gallery %}
+        <div class="portfolio-gallery-item">
+          <img class="portfolio-gallery-item-image" src="{{ item.image_path }}"/>
+          <p class="portfolio-gallery-item-text">{{item.title}}</p>
+        </div>
+      {% endfor %}
+    </div>
+    {% endif %}
 
     {{ content }}
     <h2> Project Summary </h2>

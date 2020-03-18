@@ -178,3 +178,7 @@
 .lslide{
     height:inherit;
 }
+
+.center-thumbs .lSGallery{
+    margin: 0 auto !important; // I can't find any other way to override the damn thing
+}

@@ -16,7 +16,7 @@ main:
 shortcut-links:
 - title: "Shortcuts"
   children:
-    - title: "Top"
+    - title: "Back to Top"
       url: "#top"
     - title: "Key Works"
       url: "#key-works"
