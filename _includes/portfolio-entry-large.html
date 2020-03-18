@@ -1,7 +1,11 @@
 {% assign post = include.entry %}
 
 <article class="archive__item entry" itemscope itemtype="https://schema.org/CreativeWork">
+    {% if include.image_class %}
+    <img class="{{ include.image_class }}" src="{{ post.header.teaser }}">
+    {% else %}
     <img src="{{ post.header.teaser }}">
+    {% endif %}
     <h1 class="archive__item-title description" itemprop="headline">
         <a class="title" href="{{ post.url | relative_url }}" rel="permalink" aria-hidden="true">{{ post.title }}</a>
     </h1>

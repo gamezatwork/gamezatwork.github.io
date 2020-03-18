@@ -35,6 +35,10 @@ gallery:
     image_path: /assets/images/BeforeWinterArrives/BeforeWinterArrives_Title.png
     alt: "BeforeWinterArrives_Title"
     title: "Screenshot of the game title"
+  - url: /assets/images/BeforeWinterArrives/BeforeWinterArrives_Gameplay_01.png
+    image_path: /assets/images/BeforeWinterArrives/BeforeWinterArrives_Gameplay_01.png
+    alt: "BeforeWinterArrives_Gameplay_01"
+    title: "Screenshot of the gameplay"
 
 header:
   teaser: /assets/images/BeforeWinterArrives/BeforeWinterArrives_Title.png

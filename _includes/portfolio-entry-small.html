@@ -5,7 +5,11 @@
         <h3 class="archive__item-title" itemprop="headline" style="margin-top: 0em;">
             <a class="title" href="{{ post.url | relative_url }}" rel="permalink" aria-hidden="true">{{ post.title }}</a>
         </h3>
+        {% if include.image_class %}
+        <img class="{{ include.image_class }}" src="{{ post.header.teaser }}">
+        {% else %}
         <img src="{{ post.header.teaser }}">
+        {% endif %}
         {% if post.project_short_summary %}
         <p class="summary"> {{post.project_short_summary | markdownify | strip_html}} </p>
         {% endif %}

@@ -182,3 +182,15 @@
 .center-thumbs .lSGallery{
     margin: 0 auto !important; // I can't find any other way to override the damn thing
 }
+
+.object-position-top{
+    object-position: top;
+}
+
+.object-position-bottom{
+    object-position: bottom;
+}
+
+.object-position-center{
+    object-position: center;
+}

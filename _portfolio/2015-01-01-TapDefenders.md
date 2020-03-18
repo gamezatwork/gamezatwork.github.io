@@ -38,5 +38,5 @@ gallery:
     title: "Screenshot of the gameplay"
 
 header:
-  teaser: /assets/images/TapDefenders/TapDefenders_01.jpg
+  teaser: /assets/images/TapDefenders/TapDefenders_Title_Cropped.jpg
 ---

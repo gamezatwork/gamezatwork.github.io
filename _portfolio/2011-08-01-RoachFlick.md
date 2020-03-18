@@ -35,5 +35,5 @@ gallery:
     title: "Screenshot of the gameplay"
 
 header:
-  teaser: /assets/images/RoachFlick/RoachFlick_01.png
+  teaser: /assets/images/RoachFlick/RoachFlick_Cropped.png
 ---

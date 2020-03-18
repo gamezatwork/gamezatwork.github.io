@@ -15,11 +15,11 @@
 {%- for post in entries -%}
     {% unless post.tags contains include.not_tag or post.tags contains include.not_tag_2 or post.tags contains "Hide" %}
         {% if entry-type == "large" %}
-        {% include portfolio-entry-large.html entry=post %}
+        {% include portfolio-entry-large.html entry=post image_class=include.image_class %}
         {% elsif entry-type == "medium" %}
-        {% include portfolio-entry-medium.html entry=post %}
+        {% include portfolio-entry-medium.html entry=post image_class=include.image_class %}
         {% elsif entry-type == "small" %}
-        {% include portfolio-entry-small.html entry=post %}
+        {% include portfolio-entry-small.html entry=post image_class=include.image_class %}
         {% endif %}
     {% endunless %}
 {%- endfor -%}
