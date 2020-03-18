@@ -43,12 +43,12 @@ gallery:
     image_path: /assets/images/CriminalWizards/CriminalWizards_Gameplay_Title.jpg
     alt: "CriminalWizards_Title"
     title: "Title screen for the game"
-  - url: /assets/images/CriminalWizards/CriminalWizards_Gameplay_01.PNG
-    image_path: /assets/images/CriminalWizards/CriminalWizards_Gameplay_01.PNG
+  - url: /assets/images/CriminalWizards/CriminalWizards_Gameplay_01.png
+    image_path: /assets/images/CriminalWizards/CriminalWizards_Gameplay_01.png
     alt: "CriminalWizards_01"
     title: "Screenshot of the gameplay"
-  - url: /assets/images/CriminalWizards/CriminalWizards_Gameplay_02.PNG
-    image_path: /assets/images/CriminalWizards/CriminalWizards_Gameplay_02.PNG
+  - url: /assets/images/CriminalWizards/CriminalWizards_Gameplay_02.png
+    image_path: /assets/images/CriminalWizards/CriminalWizards_Gameplay_02.png
     alt: "CriminalWizards_02"
     title: "Another screenshot of the gameplay"
   - url: /assets/images/CriminalWizards/CriminalWizards_Editor_01.jpg
@@ -61,5 +61,5 @@ gallery:
     title: "Another screenshot of the editor"
 
 header:
-  teaser: /assets/images/CriminalWizards/CriminalWizards_Gameplay_01.PNG
+  teaser: /assets/images/CriminalWizards/CriminalWizards_Gameplay_01.png
 ---
